@@ -65,6 +65,7 @@ li {
 }
 
 .banner-text p {
+    font-size: 16px;
     margin: 20px 0 25px;
 }
 
@@ -268,8 +269,13 @@ footer .nav-links li a {
     }
 
     .banner-text h1 {
-        font-size: 60px;
-        line-height: 70px;
+        font-size: 50px;
+        line-height: 65px;
+    }
+
+    .banner-text p {
+        margin: 13px 0 25px;
+        font-size: 15px;
     }
 }
 
@@ -278,6 +284,10 @@ footer .nav-links li a {
 @media only screen and (max-width:1000px) {
     .banner {
         padding: 0 65px;
+    }
+
+    .banner-image img{
+        width: auto;
     }
 
     .banner-text {
@@ -292,6 +302,10 @@ footer .nav-links li a {
     .banner-text p {
         margin: 5px 0 18px;
         font-size: 0.9em;
+    }
+
+    .banner-btn {
+        padding: 12px 32px;
     }
 
     .blogs-section {
@@ -370,6 +384,7 @@ footer .nav-links li a {
 
     .banner-image img{
         padding-left: 2em;
+        width: 100%;
     }
 
     .banner-text {
