@@ -70,6 +70,7 @@ li {
 
 .banner-image {
     padding: 35px 0 0;
+    align-self: flex-end;
     display: flex;
 }
 
@@ -123,7 +124,7 @@ aside a {
     transition: background-color 0.1s;
 }
 
-.sidebar-btn:hover{
+.sidebar-btn:hover {
     color: #fff;
     background-color: #575fcf;
 }
@@ -250,6 +251,7 @@ footer .nav-links li a {
     .container {
         margin: 50px;
     }
+
     .footer-container {
         margin-bottom: 0;
     }
@@ -332,6 +334,12 @@ footer .nav-links li a {
     .button {
         padding: 8px 24px;
     }
+
+    .sidebar-btn {
+        font-size: 1em;
+        font-weight: 500;
+        padding: 12px 0;
+    }
 }
 
 /* mobile */
@@ -341,7 +349,7 @@ footer .nav-links li a {
         margin: 20px;
     }
 
-    .footer-container{
+    .footer-container {
         margin-bottom: 0;
     }
 
@@ -357,6 +365,11 @@ footer .nav-links li a {
 
     .banner-image {
         padding: 0;
+        align-self: center;
+    }
+
+    .banner-image img{
+        padding-left: 2em;
     }
 
     .banner-text {
