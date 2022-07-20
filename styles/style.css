@@ -77,7 +77,15 @@ li {
     width: 100%;
 }
 
+.banner-btn {
+    transition: margin-left 0.5s;
+}
+
 .banner-btn i {
+    margin-left: 10px;
+}
+
+.banner-btn:hover {
     margin-left: 10px;
 }
 
@@ -149,7 +157,6 @@ aside a {
 .blog-footer span {
     margin-right: 30px;
     color: #161616c0;
-    ;
 }
 
 .blog-footer span>i {
@@ -258,10 +265,10 @@ footer .nav-links li a {
 /* tablet */
 
 @media only screen and (max-width:1000px) {
-    .banner{
+    .banner {
         padding: 0 65px;
     }
-    
+
     .banner-text {
         padding: 35px 0;
     }
@@ -307,10 +314,12 @@ footer .nav-links li a {
         font-size: 25px;
         line-height: 37px;
     }
+
     .banner-text p {
         font-size: 0.8em;
         margin: 4px 0 15px;
     }
+
     .button {
         padding: 8px 24px;
     }
