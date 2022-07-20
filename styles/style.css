@@ -335,6 +335,10 @@ footer .nav-links li a {
         margin: 20px;
     }
 
+    .footer-container{
+        margin-bottom: 0;
+    }
+
     .w-50 {
         width: 80%;
     }
