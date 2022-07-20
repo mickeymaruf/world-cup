@@ -242,7 +242,10 @@ footer .nav-links li a {
 
 @media only screen and (max-width:1400px) {
     .container {
-        margin: 50px
+        margin: 50px;
+    }
+    .footer-container {
+        margin-bottom: 0;
     }
 }
 
